@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
     <link rel="stylesheet" href="style.css">
     
     <title>Calculate</title>
@@ -11,22 +13,32 @@
 <body>
     <div id="container" >
         <div id="results">
-           <div id="finalRes">0.00</div> 
+           <div id="finalRes">
+               0.00 
+            </div> 
+            <div id="textMathCalc"></div>
         </div>
         <div id="body">
             <div id="numbers">
-                <div id="1" class="number"> <br> 1</div>
-                <div id="2" class="number"><br>2</div>
-                <div id="3" class="number"><br>3</div>
-                <div id="4" class="number"><br>4</div>
-                <div id="5" class="number"><br>5</div>
-                <div id="6" class="number"><br>6</div>
-                <div id="7" class="number"><br>7</div>
-                <div id="8" class="number"><br>8</div>
-                <div id="9" class="number"><br>9</div>
-                <div id="0" class="number"><br>0</div>
-                <div id="." class="number"><br>.</div>
+                <div id="row1">
+                    <div id="1" class="number"><br>1</div>
+                    <div id="2" class="number"><br>2</div>
+                    <div id="3" class="number"><br>3</div>
+                    <div id="4" class="number"><br>4</div>
+                    <div id="5" class="number"><br>5</div>
+                    <div id="delete"><i class='fas fa-arrow-left' style='font-size:30px;color:red'></i></div>
+                </div>
+                <div id="row2">
+                    
+                    <div id="6" class="number"><br>6</div>
+                    <div id="7" class="number"><br>7</div>
+                    <div id="8" class="number"><br>8</div>
+                    <div id="9" class="number"><br>9</div>
+                    <div id="0" class="number"><br>0</div>
+                    <div id="." class="number"><br>.</div>
+                </div>
             </div>
+
             <div id="mathCalc">
                 <div class="math" id="plus"><br>+</div>
                 <div class="math" id="minus"><br>-</div>
